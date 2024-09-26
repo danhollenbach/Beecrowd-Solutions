@@ -2,7 +2,8 @@
 #include <stdbool.h>
 #include <string.h>
 
-typedef struct{
+typedef struct
+{
 
 	char teclasOriginais;
 	char teclasTrocadas;
@@ -13,7 +14,7 @@ void trocaLetras(char *string, teclado *teclas, unsigned short tam);
 bool foiTrocada(teclado *teclas, char letra, unsigned short tam);
 char fazTroca(teclado *teclas, char letra, unsigned short tam);
 
-void main ()
+void main()
 {
 
 	unsigned short numTeclasTrocadas;
@@ -40,9 +41,7 @@ void main ()
 		printf("%s\n", frase);
 
 		memset(frase, 0, sizeof(frase));
-
 	}
-
 }
 
 // Função trocas as letras pelas correspondentes trocadas;
@@ -59,7 +58,6 @@ void trocaLetras(char *string, teclado *teclas, unsigned short tam)
 
 		i++;
 	}
-
 }
 
 // Função verifica se a letra foi trocada;
@@ -73,7 +71,6 @@ bool foiTrocada(teclado *teclas, char letra, unsigned short tam)
 			return true;
 
 	return false;
-
 }
 
 // Função seleciona qual letra deve ser trocada;
@@ -88,5 +85,4 @@ char fazTroca(teclado *teclas, char letra, unsigned short tam)
 				return teclas[i].teclasTrocadas;
 			else
 				return teclas[i].teclasOriginais;
-
 }
