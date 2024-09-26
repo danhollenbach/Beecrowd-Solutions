@@ -1,4 +1,4 @@
-## Beecrowd Solutions <img src="https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/9144/beecrowd__roxoVert_%281%29_%281%29.png" width="6%">
+# Beecrowd Solutions <img src="https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/9144/beecrowd__roxoVert_%281%29_%281%29.png" width="6%">
 This repository contains some of the solutions for the problems on the [Beecrowd](https://beecrowd.org) platform.
 I hope it helps you guys!!
 
@@ -8,7 +8,7 @@ I hope it helps you guys!!
 
 Then help me to make this repo more complete by [contributing](#ancora1)!
 
-### Problems 📚
+## Problems 📚
 - 1024 - Encryption &nbsp; -> &ensp; [.c](<Solutions.c/Encryption - 1024.c>) &ensp; / &ensp; [.bee](https://judge.beecrowd.com/pt/problems/view/1024)
 - 1025 - Where is the Marble &nbsp; -> &ensp; [.c](<Solutions.c/Where is the Marble - 1025.c>) &ensp; / &ensp; [.bee](https://judge.beecrowd.com/pt/problems/view/1025)
 - 1047 - Game with Minutes &nbsp; -> &ensp; [.c](<Solutions.c/Game with Minutes - 1047.c>) &ensp; / &ensp; [.bee](https://judge.beecrowd.com/pt/problems/view/1047)
@@ -118,6 +118,6 @@ Then help me to make this repo more complete by [contributing](#ancora1)!
 
 <a name="ancora1"></a>
 
-## Contributing 🤝
+# Contributing 🤝
 
 Help me making this repo more complete! Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
